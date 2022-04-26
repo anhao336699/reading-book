@@ -49,7 +49,7 @@ app.get("/api/wx_openid", async(req, res) => {
     }
 });
 
-const port = 80;
+const port = 8080;
 
 async function bootstrap() {
     await initDB();
